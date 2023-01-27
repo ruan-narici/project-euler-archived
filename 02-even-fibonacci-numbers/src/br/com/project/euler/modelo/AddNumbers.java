@@ -34,6 +34,7 @@ public class AddNumbers {
 				this.numberTwo = this.result + this.numberOne;
 			}
 		}
+		System.out.println(this.getSum());
 	}
 	
 	public int getResult() {
