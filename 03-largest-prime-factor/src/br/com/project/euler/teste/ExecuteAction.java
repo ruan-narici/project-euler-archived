@@ -8,9 +8,9 @@ public class ExecuteAction {
 		
 		Logic number = new Logic();
 		
-		number.setNumber(600851475143l);
+		number.setNumber(600851475143L);
 		number.primeNumber();
-		System.out.println("FIM");
+		System.out.println("Resultado: " + number.getResult());
 	}
 
 }
